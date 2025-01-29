@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">simpleFoodApp</string>
+    <string name="add_person">Add Person</string>
+    <string name="report_bugs">Report Bugs</string>
+    <string name="about">About</string>
+    <string name="logout">logout</string>
+</resources>

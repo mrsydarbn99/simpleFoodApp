@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- On action bar -->
+    <item android:id="@+id/add_person"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/add_person"
+        app:showAsAction="ifRoom"/>
+    <!-- Overflow menu. No need for icon -->
+    <item android:id="@+id/report_bugs"
+        android:title="@string/report_bugs" />
+    <item android:id="@+id/about"
+        android:title="@string/about"/>
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+</menu>
